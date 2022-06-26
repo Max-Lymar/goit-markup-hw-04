@@ -108,6 +108,7 @@ img{
 }
 
 .nav-contacts-list-item-link{
+    display: flex;
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
