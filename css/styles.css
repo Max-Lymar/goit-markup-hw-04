@@ -177,6 +177,11 @@ img{
     margin-right: auto;
 }
 
+/*.advantage-icon{
+    margin: 25px 100px;
+    background-color: #757575;
+}*/
+
 .advantage-list-item:not(:last-child){
     margin-right: 30px;
 }
