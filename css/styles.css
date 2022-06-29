@@ -133,6 +133,7 @@ img{
     background-color: var(--secondary-background-color);
     padding: 200px 0 200px 0;
     text-align: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/optimised/background-hero.jpg);
 }
 
 .hero-header{
@@ -177,10 +178,18 @@ img{
     margin-right: auto;
 }
 
-/*.advantage-icon{
-    margin: 25px 100px;
-    background-color: #757575;
-}*/
+.advantage-icon{
+}
+
+.advantage-icon-container{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
 
 .advantage-list-item:not(:last-child){
     margin-right: 30px;
@@ -272,6 +281,36 @@ img{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+
+.team-member-social-link-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.team-member-social-link-list-item{
+    display: flex;
+    height: 44px;
+    width: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member-social-link-list-item:hover,
+.team-member-social-link-list-item:focus{
+    background-color: var(--active-elements-text-color);
+    border-radius: 44px;
+}
+
+.team-member-social-link-list-item:not(:last-child){
+    margin-right: 10px;
+}
+
+.team-member-social-link:hover,
+.team-member-social-link:focus{
+    color: var(--alternative-text-color)
 }
 
 .team-list-item{
